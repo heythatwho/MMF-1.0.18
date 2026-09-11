@@ -1,0 +1,56 @@
+{
+  "baseline_allocation": {
+    "SP500": 0.60,
+    "EXTENDED_MARKET": 0.25,
+    "INTERNATIONAL": 0.15
+  },
+  "current_allocation": {
+    "SP500": null,
+    "EXTENDED_MARKET": null,
+    "INTERNATIONAL": null
+  },
+  "employee_contribution_pct": 9,
+  "max_tilt_pct": 0.15,
+  "drift_band_pct": 0.05,
+  "opportunity_threshold": 75,
+  "confirmation_threshold": 60,
+  "moderate_opportunity_threshold": 85,
+  "moderate_confirmation_threshold": 65,
+  "rare_opportunity_threshold": 90,
+  "rare_confirmation_threshold": 70,
+  "tilt_exit_opportunity": 65,
+  "tilt_exit_confirmation": 45,
+  "assets": {
+    "SP500": {
+      "ticker": "SPY",
+      "nameCN": "标普500",
+      "nameEN": "S&P 500",
+      "fund": "Vanguard Institutional 500 Index Trust",
+      "valuation_score": 50,
+      "valuation_label": "NEUTRAL / MANUAL INPUT"
+    },
+    "EXTENDED_MARKET": {
+      "ticker": "VXF",
+      "nameCN": "美国扩展市场",
+      "nameEN": "U.S. Extended Market",
+      "fund": "Vanguard Extended Market Index Trust",
+      "valuation_score": 50,
+      "valuation_label": "NEUTRAL / MANUAL INPUT"
+    },
+    "INTERNATIONAL": {
+      "ticker": "VXUS",
+      "nameCN": "国际股票",
+      "nameEN": "International Equity",
+      "fund": "Vanguard Total International Stock Index",
+      "valuation_score": 50,
+      "valuation_label": "NEUTRAL / MANUAL INPUT"
+    }
+  },
+  "rollover_context": {
+    "status": "PROCESSING / ARRIVAL DATE UNCONFIRMED",
+    "source_plan": "Principal 401(k)",
+    "estimated_incoming_amount": 23391.75,
+    "permanent_portfolio_value": false
+  }
+}
+
